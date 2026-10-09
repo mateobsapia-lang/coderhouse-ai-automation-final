@@ -35,7 +35,7 @@ La aprobación de FIN-002 v2 ocurrió por respuesta explícita de Mateo al borra
 - Los handlers de IA/JSON/Slack registran el error y usan Break sin reintento automático. Se probaron validaciones negativas, pero no se provocó una caída real de la API de IA.
 - GPT-5 nano usa el proveedor incluido de Make. Simple Text Prompt no expone Max Tokens. Se recortan entradas y validan tamaños de salida por caracteres; no equivalen a un tope duro de tokens. Esta diferencia respecto de la consigna queda explícita.
 - Las fuentes y el cliente son ficticios. La demo es un montaje de capturas reales con rótulos; no una grabación continua.
-- El envío al campus está pendiente: Mateo indicó entregar el 9 de octubre, cuando abra el formulario después de las 10:00. No se pidió adelantar esa fecha.
+- Entregado a Coderhouse el 9 de octubre de 2026 a las 10:30. El campus confirma recepción y estado En corrección: la corrección automática terminó y el profesor está revisando (plazo visible: cinco días hábiles). Todavía no se presenta como aprobado. El PDF y las pruebas conservan su fecha de preparación del 8 de octubre.
 
 ## Ubicar la demo
 

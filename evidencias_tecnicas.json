@@ -108,7 +108,14 @@
   "blueprint_sha256_original": "1691be5d7c95749e142fa99707ee4d9617033a3c8ac8ef16ee7bc1c7296d6b60",
   "blueprint_sha256_publico": "23b85318e937ff02bfd7b3e85a337983e7c8b52fad83d5e77eb2ddff05c07769",
   "etiquetas_email_redactadas": 0,
-  "entregado": false,
+  "entregado": true,
   "aprobado_por_coderhouse": false,
-  "apertura_entrega": "2026-10-09 después de las 10:00, según último control del campus"
+  "apertura_entrega": "2026-10-09 después de las 10:00, según último control del campus",
+  "entrega_fecha_ba": "2026-10-09",
+  "entrega_hora_ba": "10:30",
+  "estado_campus": "En corrección",
+  "correccion_automatica": "Terminada",
+  "revision_profesor": "Tu profesor está revisando",
+  "revision_plazo_visible": "5 días hábiles",
+  "estado_entrega_verificado_utc": "2026-10-09T13:35:51Z"
 }
