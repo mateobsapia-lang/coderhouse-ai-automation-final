@@ -1,0 +1,65 @@
+{
+  "proyecto": "Estudio Norte - final AI Automation",
+  "alcance": "Contratos documentales derivados del blueprint; este archivo no instala ni ejecuta un validador adicional en Make.",
+  "version": "2026-10-29",
+  "borrador_ia": {
+    "origen": "11.answer",
+    "destino": "12 json:ParseJSON",
+    "campos_texto": ["id_relevante", "motivo", "titulo", "cuerpo", "cta", "fuentes"],
+    "ejemplo_sintetico": {
+      "id_relevante": "FIN-002",
+      "motivo": "La fuente vinculada describe la revision de presupuestos.",
+      "titulo": "Como se revisan las consultas de presupuesto de diseno web",
+      "cuerpo": "Las consultas se revisan por una persona antes de enviar una propuesta. No hay precios publicados en esta base.",
+      "cta": "Solicita la revision de tu consulta",
+      "fuentes": "KB-002, KB-003"
+    },
+    "validacion_efectiva_en_filtro_3": {
+      "titulo_caracteres": [1, 90],
+      "cuerpo_caracteres": [1, 350],
+      "cta_caracteres": [1, 80],
+      "rechazar_patron": "(<@|<!|https?://)",
+      "idea_y_fuentes": "deben coincidir con la relectura del modulo 13"
+    }
+  },
+  "aprobacion": {
+    "origen": "2 registro vigente de Airtable",
+    "destino": "filtro del modulo 6",
+    "ejemplo_sintetico": {
+      "Estado": "Revision",
+      "Aprobado": true,
+      "version_borrador": 2,
+      "version_aprobada": "2",
+      "aprobado_por": "Persona revisora de demostracion",
+      "aprobado_en": "2026-10-08T15:49:08-03:00",
+      "hilo_slack": "1791485211.324429",
+      "canal_slack": "C0C7CFDQKRT",
+      "id_publicacion": ""
+    },
+    "reglas": [
+      "Normalizar la casilla a true/false",
+      "Comparar ambas versiones como texto",
+      "Borrador igual a borrador_original y no vacio",
+      "Aprobador y fecha presentes",
+      "Canal e hilo con formato valido",
+      "Sin acuse previo"
+    ]
+  },
+  "salida_slack": {
+    "origen": "modulo 7 slack:CreateMessage",
+    "mapeos": {
+      "channel": "2.canal_slack",
+      "thread_ts": "2.hilo_slack",
+      "text": "2.Borrador, junto con codigo, version y datos de revision"
+    },
+    "acuse": {"origen": "7.ts", "destino": "8 id_publicacion de Airtable"}
+  },
+  "error": {
+    "origen": "handler de IA, JSON o Slack",
+    "destino": "Airtable.error y aviso interno",
+    "componentes": ["fecha", "fase", "error.type", "error.message"],
+    "Estado": "Error",
+    "Aprobado": false,
+    "accion": "Break, sin reintento automatico; revisar un envio incierto antes de reanudar"
+  }
+}

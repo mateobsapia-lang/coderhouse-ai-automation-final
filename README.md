@@ -2,6 +2,8 @@
 
 Proyecto final de AI Automation de Mateo Sapia. Cliente ficticio; recursos gratuitos.
 
+**Revisión del 29/10/2026:** [Guía de evaluación con módulos, pruebas y enlaces directos](REVISION_FINAL.md). El repositorio público de esta entrega es https://github.com/mateobsapia-lang/coderhouse-ai-automation-final. La devolución del primer envío indicó que no se recibió el repositorio; esta guía reúne las evidencias de los tres puntos que quedaron sin evaluar.
+
 La idea y sus fuentes viven en Airtable. Make genera un borrador con GPT, registra una versión y pide revisión por Slack. El texto aprobado sale al mismo hilo y su acuse queda guardado en Airtable.
 
 ## Abrir los entregables
@@ -35,7 +37,7 @@ La aprobación de FIN-002 v2 ocurrió por respuesta explícita de Mateo al borra
 - Los handlers de IA/JSON/Slack registran el error y usan Break sin reintento automático. Se probaron validaciones negativas, pero no se provocó una caída real de la API de IA.
 - GPT-5 nano usa el proveedor incluido de Make. Simple Text Prompt no expone Max Tokens. Se recortan entradas y validan tamaños de salida por caracteres; no equivalen a un tope duro de tokens. Esta diferencia respecto de la consigna queda explícita.
 - Las fuentes y el cliente son ficticios. La demo es un montaje de capturas reales con rótulos; no una grabación continua.
-- Entregado a Coderhouse el 9 de octubre de 2026 a las 10:30. El campus confirma recepción y estado En corrección: la corrección automática terminó y el profesor está revisando (plazo visible: cinco días hábiles). Todavía no se presenta como aprobado. El PDF y las pruebas conservan su fecha de preparación del 8 de octubre.
+- Primer envío a Coderhouse el 9 de octubre de 2026 a las 10:30. Al revisar el campus el 29/10, aparece una devolución del 19/10 con 0%: «La entrega no pudo evaluarse porque el repositorio no fue provisto en la consulta». El enlace sí aparece cargado en el formulario y el repositorio es público. Se prepara el reenvío con una guía verificable; no se presenta como aprobado. El PDF y las pruebas conservan su fecha de preparación del 8 de octubre.
 
 ## Ubicar la demo
 

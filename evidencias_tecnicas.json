@@ -113,9 +113,22 @@
   "apertura_entrega": "2026-10-09 después de las 10:00, según último control del campus",
   "entrega_fecha_ba": "2026-10-09",
   "entrega_hora_ba": "10:30",
-  "estado_campus": "En corrección",
-  "correccion_automatica": "Terminada",
-  "revision_profesor": "Tu profesor está revisando",
+  "estado_campus": "Desaprobada en primer envio; reentrega preparada",
+  "correccion_automatica": "0%: no pudo evaluar porque indica que no recibio el repositorio",
+  "revision_profesor": "Devolucion lista, 19/10/2026 10:35",
   "revision_plazo_visible": "5 días hábiles",
-  "estado_entrega_verificado_utc": "2026-10-09T13:35:51Z"
+  "estado_entrega_verificado_utc": "2026-10-09T13:35:51Z",
+  "revision_20261029": {
+    "devolucion": "La entrega no pudo evaluarse porque el repositorio no fue provisto en la consulta.",
+    "guia": "REVISION_FINAL.md",
+    "contratos": "contratos_datos.json",
+    "repositorio_publico_y_archivos_verificados": true,
+    "base_lectura_abre": true,
+    "escenario_consultado_en_make": true,
+    "historial_original_cinco_success_visible": true,
+    "modulo_ia_sin_campo_max_tokens": true,
+    "flujo_modificado": false,
+    "pruebas_nuevas_ejecutadas": false,
+    "reenviado": false
+  }
 }
