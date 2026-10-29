@@ -113,11 +113,11 @@
   "apertura_entrega": "2026-10-09 después de las 10:00, según último control del campus",
   "entrega_fecha_ba": "2026-10-09",
   "entrega_hora_ba": "10:30",
-  "estado_campus": "Desaprobada en primer envio; reentrega preparada",
-  "correccion_automatica": "0%: no pudo evaluar porque indica que no recibio el repositorio",
-  "revision_profesor": "Devolucion lista, 19/10/2026 10:35",
+  "estado_campus": "En correccion tras reenvio del 29/10/2026",
+  "correccion_automatica": "En curso: Opencode revisando codigo (DeepSeek Flash)",
+  "revision_profesor": "El formulario conserva la revision anterior del 19/10; nueva devolucion pendiente",
   "revision_plazo_visible": "5 días hábiles",
-  "estado_entrega_verificado_utc": "2026-10-09T13:35:51Z",
+  "estado_entrega_verificado_utc": "2026-10-29T17:55:18Z",
   "revision_20261029": {
     "devolucion": "La entrega no pudo evaluarse porque el repositorio no fue provisto en la consulta.",
     "guia": "REVISION_FINAL.md",
@@ -129,6 +129,12 @@
     "modulo_ia_sin_campo_max_tokens": true,
     "flujo_modificado": false,
     "pruebas_nuevas_ejecutadas": false,
-    "reenviado": false
+    "reenviado": true,
+    "fecha_reenvio_observada_ba": "2026-10-29",
+    "hora_observacion_ba": "14:55",
+    "commit_presentado": "e587a0399a8ae938ed32baada8390c249ee220d6",
+    "estado_tras_reenvio": "En correccion",
+    "comprobante_local": "outputs/comprobantes/ai_final_reentregado_20261029.jpg",
+    "nota_fecha_formulario": "El campus conserva Enviado 9 oct 10:30 y la revision anterior; el reenvio y nuevo estado se observaron el 29/10."
   }
 }
