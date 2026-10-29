@@ -4,7 +4,7 @@ Proyecto final de AI Automation de Mateo Sapia. Cliente ficticio; recursos gratu
 
 **Revisión del 29/10/2026:** [Guía de evaluación con módulos, pruebas y enlaces directos](REVISION_FINAL.md). El repositorio público de esta entrega es https://github.com/mateobsapia-lang/coderhouse-ai-automation-final. La devolución del primer envío indicó que no se recibió el repositorio; esta guía reúne las evidencias de los tres puntos que quedaron sin evaluar.
 
-**Reenviado y recibido el 29/10:** el campus muestra **En corrección**, con revisión del código en curso. El commit presentado es `e587a0399a8ae938ed32baada8390c249ee220d6`. La aprobación sigue pendiente. El formulario conserva la fecha inicial del 09/10 y la revisión anterior del 19/10.
+**Reenviado y recibido el 29/10:** el campus muestra **En corrección**, con revisión del código en curso. El commit presentado es `e587a0399a8ae938ed32baada8390c249ee220d6`. La aprobación sigue pendiente. Tras actualizar el campus, la recepción muestra **29 de octubre, 14:55**, con la nueva revisión del profesor pendiente.
 
 La idea y sus fuentes viven en Airtable. Make genera un borrador con GPT, registra una versión y pide revisión por Slack. El texto aprobado sale al mismo hilo y su acuse queda guardado en Airtable.
 

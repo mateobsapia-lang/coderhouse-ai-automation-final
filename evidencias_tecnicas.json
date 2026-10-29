@@ -114,8 +114,8 @@
   "entrega_fecha_ba": "2026-10-09",
   "entrega_hora_ba": "10:30",
   "estado_campus": "En correccion tras reenvio del 29/10/2026",
-  "correccion_automatica": "En curso: Opencode revisando codigo (DeepSeek Flash)",
-  "revision_profesor": "El formulario conserva la revision anterior del 19/10; nueva devolucion pendiente",
+  "correccion_automatica": "En curso: Corrigiendo tu entrega",
+  "revision_profesor": "Pendiente en el nuevo envio",
   "revision_plazo_visible": "5 días hábiles",
   "estado_entrega_verificado_utc": "2026-10-29T17:55:18Z",
   "revision_20261029": {
@@ -135,6 +135,7 @@
     "commit_presentado": "e587a0399a8ae938ed32baada8390c249ee220d6",
     "estado_tras_reenvio": "En correccion",
     "comprobante_local": "outputs/comprobantes/ai_final_reentregado_20261029.jpg",
-    "nota_fecha_formulario": "El campus conserva Enviado 9 oct 10:30 y la revision anterior; el reenvio y nuevo estado se observaron el 29/10."
+    "nota_fecha_formulario": "Tras actualizar el campus muestra Enviado 29 oct 14:55 y revision del profesor pendiente. La vista sin actualizar conservaba fechas del primer envio.",
+    "fecha_hora_recepcion_visible_ba": "2026-10-29 14:55"
   }
 }
